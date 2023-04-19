@@ -1,18 +1,18 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>COBIT 4.1</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobit 4.1</title>
 </head>
 
 <body>
-    <?php include 'koneksi.php'; ?>
-    <?php include 'header.php'; ?>
+    <?php
+    include 'koneksi.php';
+    include 'header.php';
+    ?>
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -48,21 +48,34 @@
                     <!-- profile info & task notification -->
                     <div class="col-md-6 col-sm-4 clearfix">
                         <ul class="notification-area pull-right">
-
+                            <!-- Fuul Screen -->
+                            <li id="full-view"><i class="ti-fullscreen"></i></li>
+                            <li id="full-view-exit"><i class="ti-zoom-out"></i></li>
+                            <!-- End Full Screen -->
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- header area end -->
+            <!-- page title area start -->
+            <div class="page-title-area">
+                <div class="row align-items-center">
+                    <img src="./assets/images/b1.jpg" alt="" class="img-tentang">
+                </div>
+            </div>
             <!-- page title area end -->
-            <div class="main-content-inner mt-5">
+            <div class="main-content-inner">
                 <!-- sales report area start -->
-                <div class="sales-report-area mt-5 mb-5">
+                <div class="sales-report-area mb-5">
                     <div class="row">
                         <!-- Card -->
-                        <div class="text-center">
-                            <img src="assets/images/icon.png" alt="" class="img-logo">
-                            <h3 class="title-page">ANALISA KUALITAS SISTEM INFORMASI MANAJEMEN KEPUASAN PELANGGAN DALAM PENGIRIMAN BARANG DI JNE KABUPATEN SIJUNJUNG DENGAN METODE COBIT MENGGUNAKAN BAHASA PEMROGRAMAN PHP DAN DATABASE MYSQL</h3>
+                        <div class="justify p-2">
+                            <h4>Sejarah tentang JNE</h4>
+                            <p class="mt-2">JNE didirikan pada tahun 1990. oleh Soeprapto Suparno bersama Johari Zein tepatnya pada tanggal 26 november. Perusahaan ini memulai kegiatannya dengan delapan karyawan dan bermodal awal 100 miliar rupiah. pada mulanya JNE hanya penanganan kegiatan ekspor dan impor seperti kepabeanan, jasa impor kiriman barang, dokumen eksport import serta pengirimannya dari luar negeri ke Indonesia.
+                                <br><br>
+                                Pada satu tahun sejak berdirinya PT. Tiki Jalur Nugraha Ekakurir. JNE mulai memperluas jaringan ke tingkat internasional. Salah satunya dengan bergabung sebagai anggota assosiasi perusahaan kurir di beberapa negara Asia (ACCA / Association Courier Conference of Asia).
+                            </p>
+
                         </div>
 
 
