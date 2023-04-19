@@ -1,7 +1,6 @@
-<?php 
+<?php
 session_start();
-$_SESSION = [];
-session_unset();
+unset($_SESSION['idr']);
 session_destroy();
 
 echo "
@@ -10,6 +9,4 @@ echo "
 			document.location.href='../index.php';
 		</script>
 		";
-	exit;
-
-?>
+exit;
